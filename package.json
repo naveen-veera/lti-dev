@@ -1,0 +1,23 @@
+{
+  "name": "examly-lti",
+  "version": "1.0.0",
+  "description": "examly-lti server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "env DEBUG=provider:* node index.js",
+    "format": "./node_modules/.bin/prettier --tab-width 4 --print-width 120 --single-quote --trailing-comma all --write 'src/**/*'"
+  },
+  "author": "examly",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "ltijs": "^5.7.3",
+    "ltijs-sequelize": "^2.1.0",
+    "pm2": "^4.4.1",
+    "shelljs": "^0.8.4"
+  },
+  "devDependencies": {
+    "prettier": "^2.2.1"
+  }
+}

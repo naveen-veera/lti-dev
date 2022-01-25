@@ -1,0 +1,184 @@
+{
+  "platforms": {
+    "platform_1": {
+      "url": "https://qa.engagelms.com/learn",
+      "name": "Engage LMS",
+      "clientId": "8LNX5yhmQE7EMFE",
+      "authenticationEndpoint": "https://qa.engagelms.com/learn/mod/lti/auth.php",
+      "accesstokenEndpoint": "https://qa.engagelms.com/learn/mod/lti/token.php",
+      "authConfig": {
+        "method": "JWK_SET",
+        "key": "https://qa.engagelms.com/learn/mod/lti/certs.php"
+      }
+    },
+    "platform_2": {
+      "url": "https://mthree.dev.edu.help",
+      "name": "MThree LMS",
+      "clientId": "xweAHd7ukafoJzn",
+      "authenticationEndpoint": "https://mthree.dev.edu.help/mod/lti/auth.php",
+      "accesstokenEndpoint": "https://mthree.dev.edu.help/mod/lti/token.php",
+      "authConfig": {
+        "method": "JWK_SET",
+        "key": "https://mthree.dev.edu.help/mod/lti/certs.php"
+      }
+    },
+    "platform_3": {
+      "url": "https://canvas.instructure.com",
+      "name": "Canvas",
+      "clientId": "86600000000000141",
+      "authenticationEndpoint": "https://canvas.instructure.com/api/lti/authorize_redirect",
+      "accesstokenEndpoint": "https://canvas.instructure.com/login/oauth2/token",
+      "authConfig": {
+        "method": "JWK_SET",
+        "key": "https://canvas.instructure.com/api/lti/security/jwks"
+      }
+    },
+    "platform_4": {
+      "url": "https://moodle.cvmcosta.com",
+      "name": "Costa Moodle",
+      "clientId": "ZbIOcRuXVsXgRfb",
+      "authenticationEndpoint": "https://moodle.cvmcosta.com/mod/lti/auth.php",
+      "accesstokenEndpoint": "https://moodle.cvmcosta.com/mod/lti/token.php",
+      "authConfig": {
+        "method": "JWK_SET",
+        "key": "https://moodle.cvmcosta.com/mod/lti/certs.php"
+      }
+    },
+    "platform_5": {
+      "url": "https://mthree.uat.edu.help",
+      "name": "MThree LMS",
+      "clientId": "E0wWzurxn68NXSE",
+      "authenticationEndpoint": "https://mthree.uat.edu.help/mod/lti/auth.php",
+      "accesstokenEndpoint": "https://mthree.uat.edu.help/mod/lti/token.php",
+      "authConfig": {
+        "method": "JWK_SET",
+        "key": "https://mthree.uat.edu.help/mod/lti/certs.php"
+      }
+    },
+    "platform_6": {
+        "url": "https://mthree.test.edu.help",
+        "name": "Engage LMS",
+        "clientId": "ClVx2Rqr6DXinjH",
+        "authenticationEndpoint": "https://mthree.test.edu.help/mod/lti/auth.php",
+        "accesstokenEndpoint": "https://mthree.test.edu.help/mod/lti/token.php",
+        "authConfig": {
+            "method": "JWK_SET",
+            "key": "https://mthree.test.edu.help/mod/lti/certs.php"
+        }
+    }
+  },
+  "platformSchoolMapping": {
+    "8LNX5yhmQE7EMFE": {
+      "apikey": "asdbdowblabdob",
+      "school_code": "pscollege841",
+      "school_url": "pscollege841.exam.ly",
+      "direct_mapping": false,
+      "assignmentMapping": {
+        "225_131": "&dtid=61ef4922-d3ce-48e8-974b-8e20d144fbffcc1b7606-6b1a-4ba6-90a9-bb49ce337a94",
+        "91_5645": "&dtid=45d0f0ad-dcd3-4ec1-b0a3-2a8a432484a329b4250c-1412-47ad-a570-9e6f5e21104e",
+	"92_5647": "&dtid=1e976406-976c-4ab9-b3bc-2121d02fbeb4519b373b-632e-4b99-8652-d6b800e71550",
+	"93_5649": "&dtid=d3716bd2-ba47-49ba-a96e-b5e8fa8363ed08000f66-1a10-4773-9481-aaff5d8e8064",
+	"math123#+": "&dtid=88d736c6-76a9-4f06-a46f-db0fd0404336c760b210-68be-4160-a4e3-5cc02587d54d",
+	"95_5653": "&dtid=c230cdb1-9280-4443-a460-92986c5cbd782ed1365a-52a0-4f4c-952d-ec89eb808713",
+	"96_5655": "&dtid=602a2e35-e7ca-4647-8030-ab82427c8bb3af7b8c38-3437-4c30-ab2c-73174d97444f",
+	"96_5656": "&dtid=602a2e35-e7ca-4647-8030-ab82427c8bb35dfdf8c9-6ba7-4582-9d39-30405f27e139",
+	"97_5658": "&dtid=fb297e77-9223-4cdd-95cc-b30fc6d376b961424ad7-45ae-4ace-a257-eb0b4f91c0ee",
+	"97_5659": "&dtid=fb297e77-9223-4cdd-95cc-b30fc6d376b9d54016e1-e8f7-4bf9-8b86-d246437a00b8",
+	"98_5661": "&dtid=123411d5-ddc3-4515-a394-2656950ca3eec49b9b17-1ff9-4c0d-9b5e-f2f315628b82",
+	"98_5662": "&dtid=123411d5-ddc3-4515-a394-2656950ca3ee72112b75-4e7b-43c8-b026-8fcef0d4de6c",
+	"98_5663": "&dtid=123411d5-ddc3-4515-a394-2656950ca3ee3f985949-3ec1-4467-a5bb-9164933c82e7",
+	"470873" : "&dtid=d3716bd2-ba47-49ba-a96e-b5e8fa8363ed08000f66-1a10-4773-9481-aaff5d8e8064",
+	"1001": "&dtid=ba624389-d67c-4057-b137-face82f8904b29b4250c-1412-47ad-a570-9e6f5e21104e",
+	"javabasic": "&dtid=ba624389-d67c-4057-b137-face82f8904b4b767387-c72f-4244-ac37-475d7250824b",
+	"C#basics_module1": "&dtid=ba624389-d67c-4057-b137-face82f8904b41d136db-aab9-4dfd-857d-405d9749ff3a"
+
+      }
+    },
+    "xweAHd7ukafoJzn": {
+      "apikey": "asdbdowblabdob",
+      "school_code": "pscollege841",
+      "school_url": "pscollege841.exam.ly",
+      "direct_mapping": false,
+      "assignmentMapping": {
+        "32_1" : "&dtid=35005ca0-eb55-44b8-9c6a-ba8dd0044c2b13f1d660-f6ce-4f3e-be56-0d81bb83bba4",
+        "32_2" : "&dtid=35005ca0-eb55-44b8-9c6a-ba8dd0044c2b499d2e43-3624-4458-9b57-37d2ef11032c",
+        "32_10" : "&dtid=35005ca0-eb55-44b8-9c6a-ba8dd0044c2b81786db8-1ce9-4e23-96b8-fdc0990401da",
+        "32_8" : "&dtid=35005ca0-eb55-44b8-9c6a-ba8dd0044c2be2709812-13eb-41c2-b83f-5eda2884cc6d",
+        "32_6" : "&dtid=35005ca0-eb55-44b8-9c6a-ba8dd0044c2b90fc600f-b2c5-4058-b6cb-ef481a63e998",
+        "40_26" :"&dtid=35005ca0-eb55-44b8-9c6a-ba8dd0044c2b90fc600f-b2c5-4058-b6cb-ef481a63e998",
+	"91_5645": "&dtid=45d0f0ad-dcd3-4ec1-b0a3-2a8a432484a329b4250c-1412-47ad-a570-9e6f5e21104e",
+	"92_5647": "&dtid=1e976406-976c-4ab9-b3bc-2121d02fbeb4519b373b-632e-4b99-8652-d6b800e71550",
+	"93_5649": "&dtid=d3716bd2-ba47-49ba-a96e-b5e8fa8363ed08000f66-1a10-4773-9481-aaff5d8e8064",
+	"math123#+": "&dtid=88d736c6-76a9-4f06-a46f-db0fd0404336c760b210-68be-4160-a4e3-5cc02587d54d",
+	"95_5653": "&dtid=c230cdb1-9280-4443-a460-92986c5cbd782ed1365a-52a0-4f4c-952d-ec89eb808713",
+	"96_5655": "&dtid=602a2e35-e7ca-4647-8030-ab82427c8bb3af7b8c38-3437-4c30-ab2c-73174d97444f",
+	"96_5656": "&dtid=602a2e35-e7ca-4647-8030-ab82427c8bb35dfdf8c9-6ba7-4582-9d39-30405f27e139",
+	"97_5658": "&dtid=fb297e77-9223-4cdd-95cc-b30fc6d376b961424ad7-45ae-4ace-a257-eb0b4f91c0ee",
+	"97_5659": "&dtid=fb297e77-9223-4cdd-95cc-b30fc6d376b9d54016e1-e8f7-4bf9-8b86-d246437a00b8",
+	"98_5661": "&dtid=123411d5-ddc3-4515-a394-2656950ca3eec49b9b17-1ff9-4c0d-9b5e-f2f315628b82",
+	"98_5662": "&dtid=123411d5-ddc3-4515-a394-2656950ca3ee72112b75-4e7b-43c8-b026-8fcef0d4de6c",
+	"98_5663": "&dtid=123411d5-ddc3-4515-a394-2656950ca3ee3f985949-3ec1-4467-a5bb-9164933c82e7",
+	"470873" : "&dtid=d3716bd2-ba47-49ba-a96e-b5e8fa8363ed08000f66-1a10-4773-9481-aaff5d8e8064",
+        "1001": "&dtid=ba624389-d67c-4057-b137-face82f8904b29b4250c-1412-47ad-a570-9e6f5e21104e",
+        "javabasic": "&dtid=ba624389-d67c-4057-b137-face82f8904b4b767387-c72f-4244-ac37-475d7250824b",
+        "C#basics_module1": "&dtid=ba624389-d67c-4057-b137-face82f8904b41d136db-aab9-4dfd-857d-405d9749ff3a"
+     }
+    },
+    "E0wWzurxn68NXSE": {
+      "apikey": "asdbdowblabdob",
+      "school_code": "pscollege841",
+      "school_url": "pscollege841.exam.ly",
+      "direct_mapping": false,
+      "assignmentMapping": {
+        "32_1" : "&dtid=35005ca0-eb55-44b8-9c6a-ba8dd0044c2b13f1d660-f6ce-4f3e-be56-0d81bb83bba4",
+        "32_2" : "&dtid=35005ca0-eb55-44b8-9c6a-ba8dd0044c2b499d2e43-3624-4458-9b57-37d2ef11032c",
+        "32_10" : "&dtid=35005ca0-eb55-44b8-9c6a-ba8dd0044c2b81786db8-1ce9-4e23-96b8-fdc0990401da",
+        "32_8" : "&dtid=35005ca0-eb55-44b8-9c6a-ba8dd0044c2be2709812-13eb-41c2-b83f-5eda2884cc6d",
+        "32_6" : "&dtid=35005ca0-eb55-44b8-9c6a-ba8dd0044c2b90fc600f-b2c5-4058-b6cb-ef481a63e998",
+        "40_26" :"&dtid=35005ca0-eb55-44b8-9c6a-ba8dd0044c2b90fc600f-b2c5-4058-b6cb-ef481a63e998",
+	"144_1182": "&dtid=35005ca0-eb55-44b8-9c6a-ba8dd0044c2b90fc600f-b2c5-4058-b6cb-ef481a63e998",
+        "91_5645": "&dtid=45d0f0ad-dcd3-4ec1-b0a3-2a8a432484a329b4250c-1412-47ad-a570-9e6f5e21104e",
+	"92_5647": "&dtid=1e976406-976c-4ab9-b3bc-2121d02fbeb4519b373b-632e-4b99-8652-d6b800e71550",
+	"93_5649": "&dtid=d3716bd2-ba47-49ba-a96e-b5e8fa8363ed08000f66-1a10-4773-9481-aaff5d8e8064",
+	"math123#+": "&dtid=88d736c6-76a9-4f06-a46f-db0fd0404336c760b210-68be-4160-a4e3-5cc02587d54d",
+	"95_5653": "&dtid=c230cdb1-9280-4443-a460-92986c5cbd782ed1365a-52a0-4f4c-952d-ec89eb808713",
+	"96_5655": "&dtid=602a2e35-e7ca-4647-8030-ab82427c8bb3af7b8c38-3437-4c30-ab2c-73174d97444f",
+	"96_5656": "&dtid=602a2e35-e7ca-4647-8030-ab82427c8bb35dfdf8c9-6ba7-4582-9d39-30405f27e139",
+	"97_5658": "&dtid=fb297e77-9223-4cdd-95cc-b30fc6d376b961424ad7-45ae-4ace-a257-eb0b4f91c0ee",
+	"97_5659": "&dtid=fb297e77-9223-4cdd-95cc-b30fc6d376b9d54016e1-e8f7-4bf9-8b86-d246437a00b8",
+	"98_5661": "&dtid=123411d5-ddc3-4515-a394-2656950ca3eec49b9b17-1ff9-4c0d-9b5e-f2f315628b82",
+	"98_5662": "&dtid=123411d5-ddc3-4515-a394-2656950ca3ee72112b75-4e7b-43c8-b026-8fcef0d4de6c",
+	"98_5663": "&dtid=123411d5-ddc3-4515-a394-2656950ca3ee3f985949-3ec1-4467-a5bb-9164933c82e7",
+	"470873" : "&dtid=d3716bd2-ba47-49ba-a96e-b5e8fa8363ed08000f66-1a10-4773-9481-aaff5d8e8064",
+        "1001": "&dtid=ba624389-d67c-4057-b137-face82f8904b29b4250c-1412-47ad-a570-9e6f5e21104e",
+        "javabasic": "&dtid=ba624389-d67c-4057-b137-face82f8904b4b767387-c72f-4244-ac37-475d7250824b",
+        "C#basics_module1": "&dtid=ba624389-d67c-4057-b137-face82f8904b41d136db-aab9-4dfd-857d-405d9749ff3a"
+     }
+    },
+    "86600000000000141": {
+      "apikey": "asdbdowblabdob",
+      "school_code": "pscollege841",
+      "school_url": "pscollege841.examly.net",
+      "direct_mapping": false,
+      "assignmentMapping": "WileyList"
+    },
+    "ZbIOcRuXVsXgRfb": {
+      "apikey": "asdbdowblabdob",
+      "school_code": "pscollege841",
+      "school_url": "pscollege841.exam.ly",
+      "direct_mapping": true,
+      "assignmentMapping": {
+        "default": ""
+     }
+    },
+    "ClVx2Rqr6DXinjH": {
+            "apikey": "asdbdowblabdob",
+            "school_code": "pscollege841",
+            "school_url": "pscollege841.examly.net",
+            "direct_mapping": false,
+            "assignmentMapping": "WileyList"
+        }
+  }
+}
+
+
